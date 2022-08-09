@@ -34,6 +34,22 @@
   padding: 0.5rem;
   border-radius: 12px;
 }
+.expense-date{
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+.expense-data__month{
+  font-size: 12px;
+}
+.expense-data__year{
+  font-size: 14px;
+}
+.expense-data__day{
+  font-size: 16px;
+}
 
 @media (min-width: 580px) {
   .expense-item__description {
